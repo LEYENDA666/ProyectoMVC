@@ -1,0 +1,29 @@
+﻿@{
+    ViewBag.Title = "EnviarInformacion";
+}
+<h2>@ViewBag.Title.</h2>
+<h3>@ViewBag.Message</h3>
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>enviarinformacion</title>
+    @Html.Partial("_LoginPartial");
+</head>
+<body>
+    <div> 
+        <p> la chupada la dio: </p> @ViewBag.chupada
+        <br />
+        <p> la perrita es :</p> @ViewBag.Perrita
+        <p> la mas puta de granada es:</p> @ViewData["puta"]
+        <form action="/home/enviarinformacion" method="post">
+            <input type="text" name="nombre" id="nombre"/>
+            <input type="number" name="edad" id="edad" />
+            <input type="submit" name="enviar" value="Enviar Informacion" />
+
+        </form>
+    </div>
+</body>
+</html>
