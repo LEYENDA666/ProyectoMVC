@@ -22,7 +22,7 @@ namespace pruebasmvc.Controllers
 
         public ActionResult About( string nombredios, int edad)
         {
-            ViewBag.Message = "Your application description page." + nombredios+" Edad  del dios hp : " + edad;
+            ViewBag.Message = "la descripcion de la pagina hp." + nombredios+" Edad  del dios hp : " + edad;
 
             return View();
         }
