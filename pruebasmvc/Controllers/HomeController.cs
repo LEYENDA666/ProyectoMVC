@@ -29,7 +29,7 @@ namespace pruebasmvc.Controllers
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "tu pagina de contacto.";
 
             return View();
         }
@@ -66,7 +66,7 @@ namespace pruebasmvc.Controllers
         public HttpStatusCodeResult codigo()
         {
 
-            return new HttpStatusCodeResult(404,"porno no encontrado");
+            return new HttpStatusCodeResult(404,"porno no encontrado perro");
         }
 
         [HttpGet]
