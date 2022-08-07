@@ -66,7 +66,7 @@ namespace pruebasmvc.Controllers
         public HttpStatusCodeResult codigo()
         {
 
-            return new HttpStatusCodeResult(404,"porno no encontrado perro");
+            return new HttpStatusCodeResult(404,"porno no encontrado perro moledor");
         }
 
         [HttpGet]
