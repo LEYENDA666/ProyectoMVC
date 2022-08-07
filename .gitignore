@@ -1,2 +1,8 @@
 .vs/pruebasmvc/v16/.suo
 .vs/pruebasmvc/config/applicationhost.config
+pruebasmvc/bin/pruebasmvc.dll
+pruebasmvc/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+pruebasmvc/obj/Debug/pruebasmvc.csproj.AssemblyReference.cache
+pruebasmvc/obj/Debug/pruebasmvc.csproj.CoreCompileInputs.cache
+pruebasmvc/obj/Debug/pruebasmvc.csproj.FileListAbsolute.txt
+pruebasmvc/bin/pruebasmvc.pdb
